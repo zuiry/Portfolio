@@ -1,0 +1,124 @@
+
+body{
+background-color:lightblue;
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+    
+    width:1000px;
+    height:1000px;
+    background-color:white;
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.container .left_side{
+color:white;}
+
+.container .left_side{
+    background-color:#003147;
+    padding: 10px;
+}
+
+
+.imgBx{      /* Div for image*/
+    position:relative;
+
+    width:200px;
+    height:250px;
+    overflow:hidden;
+}
+
+img{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    border-radius:20px;
+    overflow:hidden;
+    
+
+}
+
+
+.profileText{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-bottom: white solid 1px;
+    padding-bottom:10px;
+}
+
+
+
+.ContactInfo li{
+    padding-bottom: 10px;
+}
+
+
+li .icon{
+    font-size:25px;
+}
+
+a{
+color:lightblue;
+}
+
+.Education li h5{
+    color: #03a9f4;
+}
+
+
+
+
+
+
+
+.container .right_side{
+    background-color:#fff;
+    padding:20px;
+   
+}
+
+.container h5{
+ margin:0px;}
+
+
+.container .right_side .ps{
+    letter-spacing: 0.5px;
+    color: #003147
+
+}
+
+.container .about{
+margin: 0px;}
+
+
+
+.Experience .box{
+    display: flex;
+    flex-direction: row;
+    margin:20px ;
+    
+}
+
+.year_position h5{
+  color: #848c90;
+  
+}
+
+.year_position{
+    width:150px;
+}
+
+.Experience p{
+    padding-left: 20px;
+}
+
+.description h5{
+    padding-left:8px;
+    color: #2a7da2;
+    font-size:16px;
+}
