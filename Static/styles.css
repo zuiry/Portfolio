@@ -66,7 +66,7 @@ a{
 color:lightblue;
 }
 
-.Education li h5{
+.Education li h5, .Volunteering li h5{
     color: #03a9f4;
 }
 
@@ -104,7 +104,15 @@ margin: 0px;}
     
 }
 
-.year_position h5{
+
+.Awards .box{
+    display: flex;
+    flex-direction: row;
+    margin:20px ;
+    
+}
+
+.year_position h4, .year_position h5{
   color: #848c90;
   
 }
@@ -117,8 +125,43 @@ margin: 0px;}
     padding-left: 20px;
 }
 
-.description h5{
+.Awards .box{
+    padding-right:0px;
+}
+
+
+.description h5, .description h4{
     padding-left:8px;
     color: #2a7da2;
     font-size:16px;
+}
+
+
+.border{
+    border-bottom: 1px solid black;
+}
+
+.WhiteBorder{
+    border-bottom: 2px solid white;
+}
+
+
+
+.left_side h4:hover, .WhiteBorder:hover, h4:hover, p:hover, h5:hover{
+    transform:translateY(-10px);
+    
+}
+
+.WhiteBorder, .profileText, h4, h5, p, .Experience, .About, .Awards{
+    transition-duration: 1s;
+    border-radius: 100px;
+
+}
+
+ .Experience:hover, .About:hover, .Awards:hover{
+background-color:#d9e2e6;
+}
+
+.WhiteBorder:hover{
+    color:#2a7da2
 }
